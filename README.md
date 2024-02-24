@@ -1,7 +1,6 @@
 Data and code release for PPP paper
 
 
-==================================================================================================================================
 本项目提供的SCOPUS数据库与PATSTAT数据库中学术发明家的匹配数据集及代码。
 
 代码1：name_match_formal.ipynb 生成数据集1：Inventor_Scholar_Matching.csv 提供了发明人与学者的配对关系。 字段包括了专利数据库中的'psn_name', 'person_address', 'title_patstat_matching',论文数据库中的'author_name','affiliation_city', 'affiliation_country', 'affilname','doi_matching', 'title_scopus_matching', 标题的相似性'score_matching' ,以及发明人地址的相似性'invent_0_psn_name_similarity', 'invent_0_person_address_similarity', 'person_address_similarity'。详细的数据流程可见论文。
@@ -14,7 +13,9 @@ Data and code release for PPP paper
 
 代码3：predict_data.ipynb 提供了基础的描述性分析，以及包括卡方检验、回归分析在内的主要分析过程及结果。
 
-======================================================================================================================================
+
+
+
 
 This project provides matching datasets and code for academic inventors in the SCOPUS database and the PATSTAT database.
 
