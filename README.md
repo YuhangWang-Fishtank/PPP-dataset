@@ -1,7 +1,7 @@
 # PPP-dataset
 Data and code release for PPP paper
 
-本项目提供的SCOPUS数据库与PATSTAT数据库中学术发明家的匹配数据集及代码。
+本项目提供的SCOPUS数据库与PATSTAT数据库中学术发明家的匹配数据集及代码。完整的数据保存在zenodo ([10.5281/zenodo.10701432](https://zenodo.org/records/10702483)).
 
 
 代码1：name_match_formal.ipynb
@@ -26,7 +26,7 @@ Data and code release for PPP paper
 提供了基础的描述性分析，以及包括卡方检验、回归分析在内的主要分析过程及结果。
 
 
-This project provides matching datasets and code for academic inventors in the SCOPUS database and the PATSTAT database.
+This project provides matching datasets and code for academic inventors in the SCOPUS database and the PATSTAT database. Full data are availiable at zenodo ([10.5281/zenodo.10701432](https://zenodo.org/records/10702483)).
 
 Code1: name_match_formal.ipynb
 Generated Dataset 1: Inventor_Scholar_Matching.csv
