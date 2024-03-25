@@ -1,7 +1,7 @@
 # PPP-dataset
 Data and code release for PPP paper
 
-本项目提供的SCOPUS数据库与PATSTAT数据库中学术发明家的匹配数据集及代码。完整的数据保存在zenodo ([10.5281/zenodo.10701432](https://zenodo.org/records/10702483)).
+本项目提供的SCOPUS数据库与PATSTAT数据库中学术发明家的匹配数据集及代码。完整的数据保存在zenodo (https://zenodo.org/records/10868745).
 
 
 代码1：name_match_formal.ipynb
