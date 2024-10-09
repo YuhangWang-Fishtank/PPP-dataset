@@ -46,3 +46,10 @@ This dataset includes fields for patent-paper pairs: 'title_patent', 'title_pape
 
 Code 3: predict_data.ipynb
 This notebook provides basic descriptive analysis as well as the main analysis processes and results, including chi-square tests and regression analysis.
+
+新的数据集包括了针对专利家族、跨国界学术发明人校对的内容，具体代码将会在期刊审核后上传。
+The new dataset includes content for proofreading patent families and cross-nation academic inventors, and the specific code will be uploaded after journal review.
+
+
+
+
