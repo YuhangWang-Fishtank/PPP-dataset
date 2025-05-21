@@ -15,16 +15,6 @@ zenodo中的df_ppp.pickle是包含了发明人/作者的专利-论文匹配关�
 
 
 代码2：describe_analysis.ipynb
-生成数据集1：paper.csv
-字段包括了论文数据库中的'author_idx','author_name','title', 'doi'
-
-生成数据集2：patent.csv
-字段包括了论文数据库中的'title', 'appln_kind', 'appln_auth', 'appln_nr_original', 'person_name'
-
-生成数据集3：patent-paper-pair.csv
-字段包括了专利-论文对的'title_patent', 'title_paper', 'appln_kind', 'appln_auth', 'appln_nr_original', 'person_name', 'doi', 'author_name'
-
-代码3：predict_data.ipynb
 提供了基础的描述性分析，以及包括卡方检验、回归分析在内的主要分析过程及结果。
 
 
