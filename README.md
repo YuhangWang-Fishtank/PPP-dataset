@@ -26,29 +26,9 @@ Because PATSTAT and Scopus are both non-open datasets, df_ppp. pickle and df_ppp
 Code1: name_match_formal.ipynb
 Generated Dataset 1: Inventor_Scholar_Matching.csv
 This dataset provides the matching relationships between inventors and scholars.
-The fields include 'psn_name', 'person_address', 'title_patstat_matching' from the patent database, and 'author_name', 'affiliation_city', 'affiliation_country', 'affilname', 'doi_matching', 'title_scopus_matching', title similarity score 'score_matching', as well as the similarity of inventor addresses 'invent_0_psn_name_similarity', 'invent_0_person_address_similarity', and 'person_address_similarity'.
-Detailed data processing can be found in the paper.
 
 Code2: describe_analysis.ipynb
-Generated Dataset 1: paper.csv
-This dataset includes fields from the paper database: 'author_idx', 'author_name', 'title', 'doi'.
-
-Generated Dataset 2: patent.csv
-This dataset includes fields from the paper database: 'title', 'appln_kind', 'appln_auth', 'appln_nr_original', 'person_name'.
-
-Generated Dataset 3: patent-paper-pair.csv
-This dataset includes fields for patent-paper pairs: 'title_patent', 'title_paper', 'appln_kind', 'appln_auth', 'appln_nr_original', 'person_name', 'doi', 'author_name'.
-
-Code 3: predict_data.ipynb
 This notebook provides basic descriptive analysis as well as the main analysis processes and results, including chi-square tests and regression analysis.
-
-
-==============================================update in 2024.9.30========================================================
-
-新上传的数据集"Paper_Patent_Pair_v2.csv"包括了修订后的学术发明人（针对专利家族、跨国界学术发明人校对），具体代码将会在期刊审核后上传。
-
-The newly uploaded dataset ("Paper_Patent_Pair_v2.csv") includes revised academic inventors (proofread for patent families and cross-border academic inventors), and the specific code will be uploaded after journal review.
-
 
 
 
