@@ -1,7 +1,7 @@
 # PPP-dataset
 Data and code release for PPP paper
 
-本项目提供的SCOPUS数据库与PATSTAT数据库中学术发明家的匹配数据集及代码。论文见https://doi.org/10.1007/s11192-024-05207-9。完整的数据保存在zenodo (https://zenodo.org/records/15478277).
+本项目提供的SCOPUS数据库与PATSTAT数据库中学术发明家的匹配数据集及代码。论文见[https://doi.org/10.1007/s11192-024-05207-9]。完整的数据保存在zenodo (https://zenodo.org/records/15478277).
 zenodo中的df_ppp.pickle是包含了发明人/作者的专利-论文匹配关系，因为存在发明人和作者的重复情况，总行数15,205,445和论文中的14,137,072并不一致。使用专利的appln_id和论文的eid去重后，数据集行数为14,137,072，这个去重后的数据集保存为df_ppp_drop_duplicates_appln_id_eid.pickle。
 因为PATSTAT和Scopus都是非开放数据集，df_ppp.pickle和df_ppp_drop_duplicates_appln_id_eid.pickle都删去了两个数据库中的独有字段，包括PATSTAT的appln_id、person_id和Scopus的eid、author_id和afid。
 
