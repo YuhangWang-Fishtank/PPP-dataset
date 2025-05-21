@@ -7,11 +7,7 @@ zenodo中的df_ppp.pickle是包含了发明人/作者的专利-论文匹配关�
 因为PATSTAT和Scopus都是非开放数据集，df_ppp.pickle和df_ppp_drop_duplicates_appln_id_eid.pickle都删去了两个数据库中的独有字段，包括PATSTAT的appln_id、person_id和Scopus的eid、author_id和afid。
 
 代码1：name_match_formal.ipynb
-生成数据集1：Inventor_Scholar_Matching.csv
 提供了发明人与学者的配对关系。
-字段包括了专利数据库中的'psn_name', 'person_address', 'title_patstat_matching',论文数据库中的'author_name','affiliation_city', 'affiliation_country', 'affilname','doi_matching', 'title_scopus_matching',
-标题的相似性'score_matching' ,以及发明人地址的相似性'invent_0_psn_name_similarity', 'invent_0_person_address_similarity',
-       'person_address_similarity'。详细的数据流程可见论文。
 
 
 代码2：describe_analysis.ipynb
@@ -24,7 +20,6 @@ After using the patent's appln_id and the paper's eid for deduplication, the num
 Because PATSTAT and Scopus are both non-open datasets, df_ppp. pickle and df_ppp_drop_duplicates_appd_id_id_eid.pickle have removed unique fields from both databases, including the "appln_id" and "person_id" of PATSTAT and the "eid", "author_id", and "afid" of Scopus.
 
 Code1: name_match_formal.ipynb
-Generated Dataset 1: Inventor_Scholar_Matching.csv
 This dataset provides the matching relationships between inventors and scholars.
 
 Code2: describe_analysis.ipynb
